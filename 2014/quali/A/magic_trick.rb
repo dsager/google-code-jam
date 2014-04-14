@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
+
+# problem: https://code.google.com/codejam/contest/2974486/dashboard#s=p0
+
 file_name = ARGV[0]
 input = File.new(file_name, 'r')
 input.gets.to_i.times do |n|

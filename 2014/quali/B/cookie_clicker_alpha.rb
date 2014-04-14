@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
+
+# problem: https://code.google.com/codejam/contest/2974486/dashboard#s=p1
+
 input = File.new(ARGV[0], 'r')
 input.gets.to_i.times do |n|
   vars = input.gets.split(' ').map(&:to_f)
